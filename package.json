@@ -15,7 +15,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
+    "test": "cypress run -b chrome --headless --spec 'cypress/e2e/testFile.spec.cy.js'",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
