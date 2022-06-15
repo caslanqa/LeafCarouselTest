@@ -51,7 +51,7 @@ describe('Integration Test For Infinite React Leaf Carousel', function () {
 
         it('Visibilities Of 3 Images Side Images Depends On Breakpoint 199*500 Size', function () {
             cy.viewport(viewPorts.smallSizeWidth,viewPorts.height)
-            //cy.get('[alt="Image11"]').should('not.be.visible')
+
             cy.get('[alt="Image12"]').should('be.visible')
             cy.get('[alt="Image1"]').should('be.visible')
             cy.get('[alt="Image2"]').should('be.visible')
@@ -60,7 +60,7 @@ describe('Integration Test For Infinite React Leaf Carousel', function () {
 
         it('Visibilities Of 4 Images With Side Images Depends On Breakpoint 499*500 Size', function () {
             cy.viewport(viewPorts.mediumSizeWidth,viewPorts.height)
-            //cy.get('[alt="Image11"]').should('not.be.visible')
+
             cy.get('[alt="Image12"]').should('be.visible')
             cy.get('[alt="Image1"]').should('be.visible')
             cy.get('[alt="Image2"]').should('be.visible')
@@ -70,7 +70,7 @@ describe('Integration Test For Infinite React Leaf Carousel', function () {
 
         it('Visibilities Of 5 Images Side Images Depends On Breakpoint 699*500 Size', function () {
             cy.viewport(viewPorts.largeSizeWidth,viewPorts.height)
-            //cy.get('[alt="Image11"]').should('not.be.visible')
+            
             cy.get('[alt="Image12"]').should('be.visible')
             cy.get('[alt="Image1"]').should('be.visible')
             cy.get('[alt="Image2"]').should('be.visible')
